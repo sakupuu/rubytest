@@ -1,16 +1,15 @@
 #11. 10で作成したプログラムをcase文を使い、作りかえてください。
 
 
-countries = ["japan", "us", "italy"]
-countries.each do |country|
-  case country
+countries = ["japan", "us", "italy"].sample
+
+  case countries
   when "japan"
-    puts "#{country}:こんにちは"
+    puts "#{countries}:こんにちは"
   when "us"
-    puts "#{country}:Hello"
+    puts "#{countries}:Hello"
   when "italy"
-    puts "#{country}:ciao"
+    puts "#{countries}:ciao"
   else 
     puts "対応する要素がありません"
   end
-end
