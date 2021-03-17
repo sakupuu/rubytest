@@ -4,23 +4,17 @@
 #その渡ってきた引数によってそれぞれ、”こんにちは”, “Hello”, “ciao”と出力できるようにしてください。
 #なお、存在しない要素を渡った時は”対応する要素がありません”と出力しましょう。
 
-def countries
+def greeting(countries)
 end
 
-  countries = ["japan", "us", "italy"].sample
-  
-  if countries "japan"
-    puts "#{countries}:こんにちは"
-  elsif countries "us"
-    puts "#{countries}:Hello"
-  elsif countries "italy"
-    puts "#{countries}:ciao"
-  else 
-    puts "対応する要素がありません"
-  end
+countries = ["japan", "us", "italy"].sample
 
-
-
-
-
-
+if countries == "japan"
+  puts "#{countries}:こんにちは"
+elsif countries == "us"
+  puts "#{countries}:Hello"
+elsif countries == "italy"
+  puts "#{countries}:ciao"
+else 
+  puts "対応する要素がありません"
+end
