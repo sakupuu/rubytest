@@ -1,11 +1,9 @@
 #11. 10で作成したプログラムをcase文を使い、作りかえてください。
 
+
 def greeting(countries)
-end
-
-countries = ["japan", "us", "italy"].sample
-
   case countries
+
   when "japan"
     puts "#{countries}:こんにちは"
   when "us"
@@ -15,3 +13,21 @@ countries = ["japan", "us", "italy"].sample
   else 
     puts "対応する要素がありません"
   end
+end
+
+  hoge = ["japan", "us", "italy"].sample
+  greeting(hoge)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
