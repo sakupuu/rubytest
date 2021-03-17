@@ -1,5 +1,7 @@
 #11. 10で作成したプログラムをcase文を使い、作りかえてください。
 
+def greeting(countries)
+end
 
 countries = ["japan", "us", "italy"].sample
 
